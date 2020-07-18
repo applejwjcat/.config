@@ -1,3 +1,9 @@
+#!/bin/bash
+# File              : scope.sh
+# Author            : Tristan <15997232823@163.com>
+# Date              : 18.07.2020
+# Last Modified Date: Sat Jul 18 2020 21:48:41 PM CST
+# Last Modified By  : Tristan <15997232823@163.com>
 #!/usr/bin/env bash
 
 set -o noclobber -o noglob -o nounset -o pipefail
@@ -153,32 +159,32 @@ handle_image() {
             ## as above), but might fail for unsupported types.
             exit 7;;
 
-        ## Video
-        # video/*)
-        #     # Thumbnail
-        #     ffmpegthumbnailer -i "${FILE_PATH}" -o "${IMAGE_CACHE_PATH}" -s 0 && exit 6
-        #     exit 1;;
+        # Video
+         video/*)
+             # Thumbnail
+             ffmpegthumbnailer -i "${FILE_PATH}" -o "${IMAGE_CACHE_PATH}" -s 0 && exit 6
+             exit 1;;
 
-        ## PDF
-        # application/pdf)
-        #     pdftoppm -f 1 -l 1 \
-        #              -scale-to-x "${DEFAULT_SIZE%x*}" \
-        #              -scale-to-y -1 \
-        #              -singlefile \
-        #              -jpeg -tiffcompression jpeg \
-        #              -- "${FILE_PATH}" "${IMAGE_CACHE_PATH%.*}" \
-        #         && exit 6 || exit 1;;
+        # PDF
+         application/pdf)
+             pdftoppm -f 1 -l 1 \
+                      -scale-to-x "${DEFAULT_SIZE%x*}" \
+                      -scale-to-y -1 \
+                      -singlefile \
+                      -jpeg -tiffcompression jpeg \
+                      -- "${FILE_PATH}" "${IMAGE_CACHE_PATH%.*}" \
+                 && exit 6 || exit 1;;
 
 
-        ## ePub, MOBI, FB2 (using Calibre)
-        # application/epub+zip|application/x-mobipocket-ebook|\
-        # application/x-fictionbook+xml)
-        #     # ePub (using https://github.com/marianosimone/epub-thumbnailer)
-        #     epub-thumbnailer "${FILE_PATH}" "${IMAGE_CACHE_PATH}" \
-        #         "${DEFAULT_SIZE%x*}" && exit 6
-        #     ebook-meta --get-cover="${IMAGE_CACHE_PATH}" -- "${FILE_PATH}" \
-        #         >/dev/null && exit 6
-        #     exit 1;;
+        # ePub, MOBI, FB2 (using Calibre)
+         application/epub+zip|application/x-mobipocket-ebook|\
+         application/x-fictionbook+xml)
+             # ePub (using https://github.com/marianosimone/epub-thumbnailer)
+             epub-thumbnailer "${FILE_PATH}" "${IMAGE_CACHE_PATH}" \
+                 "${DEFAULT_SIZE%x*}" && exit 6
+             ebook-meta --get-cover="${IMAGE_CACHE_PATH}" -- "${FILE_PATH}" \
+                 >/dev/null && exit 6
+             exit 1;;
 
         ## Font
         application/font*|application/*opentype)
@@ -289,27 +295,34 @@ handle_mime() {
             xls2csv -- "${FILE_PATH}" && exit 5
             exit 1;;
 
-        ## Text
         text/* | */xml)
-            ## Syntax highlight
-            if [[ "$( stat --printf='%s' -- "${FILE_PATH}" )" -gt "${HIGHLIGHT_SIZE_MAX}" ]]; then
-                exit 2
+            if  command -v ccat &>/dev/null; then
+                ccat --color=always ${FILE_PATH}
+                exit 0
             fi
-            if [[ "$( tput colors )" -ge 256 ]]; then
-                local pygmentize_format='terminal256'
-                local highlight_format='xterm256'
-            else
-                local pygmentize_format='terminal'
-                local highlight_format='ansi'
-            fi
-            env HIGHLIGHT_OPTIONS="${HIGHLIGHT_OPTIONS}" highlight \
-                --out-format="${highlight_format}" \
-                --force -- "${FILE_PATH}" && exit 5
-            env COLORTERM=8bit bat --color=always --style="plain" \
-                -- "${FILE_PATH}" && exit 5
-            pygmentize -f "${pygmentize_format}" -O "style=${PYGMENTIZE_STYLE}"\
-                -- "${FILE_PATH}" && exit 5
             exit 2;;
+
+       # ## Text
+       # text/* | */xml)
+       #     ## Syntax highlight
+       #     if [[ "$( stat --printf='%s' -- "${FILE_PATH}" )" -gt "${HIGHLIGHT_SIZE_MAX}" ]]; then
+       #         exit 2
+       #     fi
+       #     if [[ "$( tput colors )" -ge 256 ]]; then
+       #         local pygmentize_format='terminal256'
+       #         local highlight_format='xterm256'
+       #     else
+       #         local pygmentize_format='terminal'
+       #         local highlight_format='ansi'
+       #     fi
+       #     env HIGHLIGHT_OPTIONS="${HIGHLIGHT_OPTIONS}" highlight \
+       #         --out-format="${highlight_format}" \
+       #         --force -- "${FILE_PATH}" && exit 5
+       #     env COLORTERM=8bit bat --color=always --style="plain" \
+       #         -- "${FILE_PATH}" && exit 5
+       #     pygmentize -f "${pygmentize_format}" -O "style=${PYGMENTIZE_STYLE}"\
+       #         -- "${FILE_PATH}" && exit 5
+       #     exit 2;;
 
         ## DjVu
         image/vnd.djvu)
