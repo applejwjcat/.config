@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "coc-clangd": ">=0.4.11",
+    "coc-css": ">=1.2.4",
+    "coc-diagnostic": ">=0.2.8",
+    "coc-explorer": ">=0.7.18",
+    "coc-gitignore": ">=0.0.4",
+    "coc-html": ">=1.2.4",
+    "coc-json": ">=1.2.6",
+    "coc-pyright": ">=1.1.51",
+    "coc-python": ">=1.2.12",
+    "coc-snippets": ">=2.1.28",
+    "coc-sourcekit": ">=0.0.2",
+    "coc-stylelint": ">=1.1.0",
+    "coc-syntax": ">=1.2.4",
+    "coc-tasks": ">=0.0.7",
+    "coc-tslint-plugin": ">=1.1.1",
+    "coc-tsserver": ">=1.5.2",
+    "coc-vimlsp": ">=0.9.1",
+    "coc-yank": ">=1.1.4"
+  }
+}

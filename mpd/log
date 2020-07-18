@@ -1,0 +1,364 @@
+Apr 30 19:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 30 19:39 : exception: Failed to open '/home/appledog/.config/mpd/state': No such file or directory
+Apr 30 19:40 : client: [0] opened from 127.0.0.1:42408
+Apr 30 19:40 : client: [0] closed
+Apr 30 19:41 : client: [1] opened from 127.0.0.1:42410
+Apr 30 19:48 : client: [2] opened from 127.0.0.1:42422
+Apr 30 19:49 : client: [2] closed
+Apr 30 19:51 : client: [3] opened from 127.0.0.1:42472
+Apr 30 19:51 : update: added CloudMusic/云の泣 - 青玉案（唱：云の泣 词：小鱼萝莉）.mp3
+Apr 30 19:51 : client: [3] closed
+Apr 30 19:52 : client: [4] opened from 127.0.0.1:42476
+Apr 30 19:52 : update: added /云の泣 - 青玉案（唱：云の泣 词：小鱼萝莉）.mp3
+Apr 30 19:52 : exception: Failed to open /home/appledog/.config/mpd/playlists: No such file or directory
+Apr 30 19:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:52 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:52 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:52 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:52 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:52 : player: problems opening audio device while playing "云の泣 - 青玉案（唱：云の泣 词：小鱼萝莉）.mp3"
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:52 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:52 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:52 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:52 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [5] opened from 127.0.0.1:42478
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [5] closed
+Apr 30 19:53 : client: [6] opened from 127.0.0.1:42480
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [6] closed
+Apr 30 19:53 : client: [7] opened from 127.0.0.1:42482
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [7] closed
+Apr 30 19:53 : client: [8] opened from 127.0.0.1:42484
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [8] closed
+Apr 30 19:53 : client: [9] opened from 127.0.0.1:42486
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [9] closed
+Apr 30 19:53 : client: [10] opened from 127.0.0.1:42488
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [10] closed
+Apr 30 19:53 : client: [11] opened from 127.0.0.1:42490
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [11] closed
+Apr 30 19:53 : client: [12] opened from 127.0.0.1:42492
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [12] closed
+Apr 30 19:53 : client: [13] opened from 127.0.0.1:42494
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [13] closed
+Apr 30 19:53 : client: [14] opened from 127.0.0.1:42496
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [14] closed
+Apr 30 19:53 : client: [15] opened from 127.0.0.1:42498
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [15] closed
+Apr 30 19:53 : client: [16] opened from 127.0.0.1:42500
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [16] closed
+Apr 30 19:53 : client: [17] opened from 127.0.0.1:42502
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [17] closed
+Apr 30 19:53 : client: [18] opened from 127.0.0.1:42504
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [18] closed
+Apr 30 19:53 : client: [19] opened from 127.0.0.1:42506
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [19] closed
+Apr 30 19:53 : client: [20] opened from 127.0.0.1:42508
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [20] closed
+Apr 30 19:53 : client: [21] opened from 127.0.0.1:42510
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : exception: Failed to open "pcm" (alsa)
+Apr 30 19:53 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 19:53 : client: [21] closed
+Apr 30 19:53 : client: [4] closed
+Apr 30 20:05 : client: [22] opened from 127.0.0.1:42692
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : client: [23] opened from 127.0.0.1:42694
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : client: [23] closed
+Apr 30 20:05 : client: [24] opened from 127.0.0.1:42696
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : client: [24] closed
+Apr 30 20:05 : client: [25] opened from 127.0.0.1:42698
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : client: [25] closed
+Apr 30 20:05 : client: [26] opened from 127.0.0.1:42700
+Apr 30 20:05 : player: played "CloudMusic/云の泣 - 青玉案（唱：云の泣 词：小鱼萝莉）.mp3"
+Apr 30 20:05 : client: [26] closed
+Apr 30 20:05 : client: [27] opened from 127.0.0.1:42702
+Apr 30 20:05 : client: [27] closed
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : player: problems opening audio device while playing "CloudMusic/云の泣 - 青玉案（唱：云の泣 词：小鱼萝莉）.mp3"
+Apr 30 20:05 : client: [28] opened from 127.0.0.1:42704
+Apr 30 20:05 : player: played "CloudMusic/云の泣 - 青玉案（唱：云の泣 词：小鱼萝莉）.mp3"
+Apr 30 20:05 : client: [28] closed
+Apr 30 20:05 : client: [29] opened from 127.0.0.1:42706
+Apr 30 20:05 : client: [29] closed
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : player: problems opening audio device while playing "CloudMusic/云の泣 - 青玉案（唱：云の泣 词：小鱼萝莉）.mp3"
+Apr 30 20:05 : exception: Failed to open /home/appledog/.config/mpd/playlists: No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:05 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:05 : exception: Failed to open /home/appledog/.config/mpd/playlists: No such file or directory
+Apr 30 20:05 : exception: Failed to open /home/appledog/.config/mpd/playlists: No such file or directory
+Apr 30 20:06 : client: [22] closed
+Apr 30 20:06 : client: [30] opened from 127.0.0.1:42714
+Apr 30 20:06 : exception: Failed to open /home/appledog/.config/mpd/playlists: No such file or directory
+Apr 30 20:06 : exception: Failed to open /home/appledog/.config/mpd/playlists: No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:06 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:06 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:06 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:06 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:06 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:06 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:06 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:06 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:06 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:06 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:06 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:06 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:06 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:06 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:06 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:06 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:07 : client: [30] closed
+Apr 30 20:07 : client: [31] opened from 127.0.0.1:42726
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:08 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:08 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:08 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:08 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:08 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:08 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:08 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:08 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:08 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:08 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:08 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:08 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:08 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:08 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:08 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:08 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:08 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:08 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:08 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:08 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Apr 30 20:08 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:08 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:08 : exception: Failed to open "pcm" (alsa)
+Apr 30 20:08 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Apr 30 20:08 : client: [31] closed
+Apr 30 20:11 : client: [1] closed
+Apr 30 20:11 : client: [32] opened from 127.0.0.1:42738
+Apr 30 20:13 : client: [32] closed
+Apr 30 20:13 : client: [33] opened from 127.0.0.1:42744
+Apr 30 20:13 : client: [33] closed
+Apr 30 20:13 : client: [34] opened from 127.0.0.1:42746
+Apr 30 20:14 : client: [34] closed
+Apr 30 20:14 : client: [35] opened from 127.0.0.1:42748
+Apr 30 20:16 : client: [35] closed
+Apr 30 23:46 : player: played "CloudMusic/云の泣 - 青玉案（唱：云の泣 词：小鱼萝莉）.mp3"

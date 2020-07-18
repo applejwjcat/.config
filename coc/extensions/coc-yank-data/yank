@@ -1,0 +1,794 @@
+2d5855848d88fc641b6486bd3516c4ee|file:///home/appledog/Startify|11|5|v|startify
+	e]  <empty buffer>
+bdee703c89c64c546a69ae2d4a9671da|file:///home/appledog/Downloads/hello.cpp|9|1|V|cpp
+	#include <iostream>
+a6bab89a64ef4151d015e8ae4109a955|file:///home/appledog/.config/nvim/coc-settings.json|6|2|^v|json
+	 //
+	 //
+	 //
+	 //
+	 //
+	 //
+	 //
+	 //
+	 //
+	 //
+	 //
+	 //
+ef669210f7cf3ef91ae408a89f8fccb9|file:///home/appledog/.config/nvim/coc-settings.json|6|4|v|json
+	"languageserver": {
+	       "ccls": {
+	           "command": "ccls",
+	           "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
+	           "rootPatterns": [".ccls", "compile_commands.json", ".git/", ".hg/"],
+	           "initializationOptions": {
+	               "cache": {
+	                   "directory": "/tmp/ccls"
+	               }
+	           }
+	       }
+	   }
+76c9887945f64dfbf64656654b213728|file:///home/appledog/.config/nvim/init.vim|265|13|V|vim
+	            "\ 'coc-ccls',
+900fa3c04a3b11f0dcf4bc46cdfeea8c|file:///home/appledog/.vimrc.custom.config|1|9|V|vim
+	" File              : .vimrc.custom.config
+	" Author            : Tristan <15997232823@163.com>
+	" Date              : Sun Apr 12 2020 18:09:15 PM CST
+	" Last Modified Date: Sun Jul 12 2020 22:54:04 PM CST
+	" Last Modified By  : Tristan <15997232823@163.com>
+	" File              : .vimrc.custom.config
+	" Date              : 12.04.2020
+	" Last Modified Date: 12.04.2020
+	" File              : .vimrc.custom.config
+	" Date              : 12.04.2020
+	" Last Modified Date: 12.04.2020
+	" File              : .vimrc.custom.config
+	" Date              : 12.04.2020
+	" Last Modified Date: 12.04.2020
+091c2e703c7918644beef7fb3d8d4a15|file:///home/appledog/.vimrc.custom.config|87|9|V|vim
+	        exec "<CR>"
+a70fe06c600c8b27319b12ba5fe00388|untitled:2|1|1|v|
+	Install finished
+7fc566c9656df80910dbe904e9cc768a|file:///home/appledog/.config/nvim/init.vim|274|13|V|vim
+	            \ 'coc-lists',
+5857f6db4fd26373d2b2520813b7eb29|file:///home/appledog/.zshrc|128|17|^v|zsh
+	.config/nvim
+49189c74d9f43b63d801e3a2e65ee8ae|file:///home/appledog/Downloads/nvim/init.vim|80|1|V|vim
+	set completeopt=longest,noinsert,menuone,noselect,preview
+	set ttyfast "should make scrolling faster
+61a486812bee16cf8a9f12583dabbaca|file:///home/appledog/.config/nvim/init.vim|26|1|V|vim
+	set 
+608f5cfcce2aa45d69f2b5081274ef46|file:///home/appledog/Downloads/nvim/init.vim|84|1|V|vim
+	silent !mkdir -p ~/.config/nvim/tmp/backup
+	silent !mkdir -p ~/.config/nvim/tmp/undo
+	"silent !mkdir -p ~/.config/nvim/tmp/sessions
+	set backupdir=~/.config/nvim/tmp/backup,.
+	set directory=~/.config/nvim/tmp/backup,.
+	if has('persistent_undo')
+		set undofile
+		set undodir=~/.config/nvim/tmp/undo,.
+	endif
+69dd618083fe0970fec2db8fad60be1f|file:///home/appledog/.config/nvim/init.vim|61|1|V|vim
+	"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+e4e9ac7302a99f5e78bba627f62c78a1|file:///home/appledog/.config/nvim/init.vim|71|1|V|vim
+	silent !mkdir -p ~/.config/nvim/tmp/backup
+	silent !mkdir -p ~/.config/nvim/tmp/undo
+9cd74efe1458f60fb6090de62b00d7b9|file:///home/appledog/Downloads/nvim/init.vim|105|1|v|vim
+	" ===
+	silent !mkdir -p ~/.config/nvim/tmp/backup
+	silent !mkdir -p ~/.config/nvim/tmp/undo
+	" === Terminal Behaviors
+	" ===
+	let g:neoterm_autoscroll = 1
+	autocmd TermOpen term://* startinsert
+	tnoremap <C-N> <C-\><C-N>
+	tnoremap <C-O> <C-\><C-N><C-O>
+	let g:terminal_color_0  = '#000000'
+	let g:terminal_color_1  = '#FF5555'
+	let g:terminal_color_2  = '#50FA7B'
+	let g:terminal_color_3  = '#F1FA8C'
+	let g:terminal_color_4  = '#BD93F9'
+	let g:terminal_color_5  = '#FF79C6'
+	let g:terminal_color_6  = '#8BE9FD'
+	let g:terminal_color_7  = '#BFBFBF'
+	let g:terminal_color_8  = '#4D4D4D'
+	let g:terminal_color_9  = '#FF6E67'
+	let g:terminal_color_10 = '#5AF78E'
+	let g:terminal_color_11 = '#F4F99D'
+	let g:terminal_color_12 = '#CAA9FA'
+	let g:terminal_color_13 = '#FF92D0'
+	let g:terminal_color_14 = '#9AEDFE'
+	
+	
+	
+a9069c3496612276423170f51b2f8ada|file:///home/appledog/Downloads/nvim/init.vim|829|1|V|vim
+	" ===
+	" === Undotree
+	" ===
+	noremap L :UndotreeToggle<CR>
+	let g:undotree_DiffAutoOpen = 1
+	let g:undotree_SetFocusWhenToggle = 1
+	let g:undotree_ShortIndicators = 1
+	let g:undotree_WindowLayout = 2
+	let g:undotree_DiffpanelHeight = 8
+	let g:undotree_SplitWidth = 24
+	function g:Undotree_CustomMap()
+		nmap <buffer> u <plug>UndotreeNextState
+		nmap <buffer> e <plug>UndotreePreviousState
+		nmap <buffer> U 5<plug>UndotreeNextState
+		nmap <buffer> E 5<plug>UndotreePreviousState
+	endfunc
+5a05a96ae56fd97e89bc3fc802464071|file:///home/appledog/.config/nvim/init.vim|374|1|V|vim
+	inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+c7c9e3061c02e3b04e642deccea3a0ee|file:///home/appledog/.config/nvim/init.vim|374|1|V|vim
+	inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
+4317b4262a5229f061d870c07493e40c|file:///home/appledog/Downloads/nvim/init.vim|764|1|V|vim
+	noremap <C-p> :Files<CR>
+	noremap <C-f> :Rg<CR>
+	noremap <C-h> :History<CR>
+7db3e3a09f133fcda221ac38e1b0e4b0|file:///home/appledog/hello.cpp|13|5|V|cpp
+	    while (true)
+9b8b71ead35ff3e1cdb2da43c6d4ce4d|file:///home/appledog/hello.cpp|14|8|V|cpp
+	       [](gg)
+078473cbb32e95bd6139f232e3c5d8d7|file:///home/appledog/hello.cpp|14|8|V|cpp
+	       foo,bardd[()] 
+c1c650cab04efafcfcf1d9b491a9703d|file:///home/appledog/.config/nvim/init.vim|133|1|V|vim
+	Plug 'chxuan/cpp-mode'
+cb3f07cc565dde2a6fdf90a6199e5dd1|file:///home/appledog/.config/nvim/init.vim|133|1|V|vim
+	Plug 'chxuan/vim-edit'
+6a82d4556002a269b52928ef88ec6c24|file:///home/appledog/.config/nvim/init.vim|333|1|V|vim
+	nnoremap <leader>f :LeaderfFile <cr>
+3fb10cd07406a48f2809a1b25cf9bbbb|file:///home/appledog/.config/nvim/init.vim|333|1|V|vim
+	let g:Lf_WildIgnore = {
+26d91824b11d465deb5845532f19f459|file:///home/appledog/.config/nvim/init.vim|333|13|V|vim
+	            \ 'dir': ['.svn','.git','.hg','.vscode','.wine','.deepinwine','.oh-my-zsh'],
+e4c314a986805376c12fe12b4c3c2cc8|file:///home/appledog/.config/nvim/init.vim|333|13|V|vim
+	            \ 'file': ['*.sw?','~$*','*.bak','*.exe','*.o','*.so','*.py[co]']
+205c78757fae8244f2a24fa0e203a5bc|file:///home/appledog/.config/nvim/init.vim|333|13|V|vim
+	            \}
+86fe1d2dc77c32374eee9f3bd59febc4|file:///home/appledog/.config/nvim/init.vim|333|1|V|vim
+	let g:Lf_UseCache = 0
+ae9cd314db6060322a662cabec83b632|file:///home/appledog/.config/nvim/init.vim|332|1|V|vim
+	" LeaderF
+3c27a8028a949c03dc4b9b563b8362a5|file:///home/appledog/.config/nvim/init.vim|140|1|V|vim
+	Plug 'Yggdroot/LeaderF',{'do':'./insatll.sh'}
+a5be59bc59c5c7de0ad2c71125bd24cb|file:///home/appledog/.config/nvim/init.vim|264|1|V|vim
+	" vim-edit
+	"nnoremap Y :CopyText<cr>
+	"nnoremap D :DeleteText<cr>
+	"nnoremap C :ChangeText<cr>
+	"nnoremap <leader>r :ReplaceTo<space>
+8b1a9953c4611296a827abf8c47804d7|file:///home/appledog/hello.cpp|14|17|v|cpp
+	Hello
+eecbe0335df5da5d9c1334fe13b2c2ef|file:///home/appledog/hello.cpp|14|17|v|cpp
+	'Hello' << endl
+020a6b4dc415eafcbda5b3a10a7d3bfa|file:///home/appledog/hello.cpp|14|5|V|cpp
+	    cout << "Hello" << endl;
+b85006f71c71b59c39bf0a6f93aba22a|file:///home/appledog/hello.cpp|14|13|v|cpp
+	<q></q>
+e9e6080c9c59a029796309ce261ee2b8|file:///home/appledog/.config/ranger/rc.conf|117|27|v|conf
+	ueberzug
+7ea3c8fb2ec98ce4afdca7f57330f302|file:///etc/profile.d/sysstat.sh|8|1|V|sh
+	# File Name: sysstat.sh
+	# Author: Tristan
+	# mail: 15997232823@163.com
+	# Last Modified: 2020年04月08日 星期三 21时21分59秒
+	# Created Time: 2020年03月30日 星期一 13时07分14秒
+	#########################################################################
+4e2be71ff7018a71966ab4efd3dd5f1c|file:///home/appledog/Downloads/nvim/init.vim|1297|1|V|vim
+	nnoremap ci cl
+4caf2505b9cc336331987dda3132448b|file:///home/appledog/.config/nvim/init.vim|151|1|V|vim
+	Plug 'tpope/vim-repeat'
+e11346c958fdbc84dc22db44553c01f1|file:///home/appledog/.config/nvim/init.vim|285|1|V|vim
+	let g:EasyMotion_smartcase = 1
+b9799f95598b431bb7bbc07341e7e0dd|file:///home/appledog/.config/nvim/init.vim|338|1|V|vim
+	" vim-smooth-scroll
+	noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 0, 2)<CR>
+	noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 0, 2)<CR>
+	noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 0, 4)<CR>
+	noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 0, 4)<CR>
+198cd4bee95949ec549dd6e2ceb7c097|file:///home/appledog/.config/nvim/init.vim|165|1|V|vim
+	Plug 'terryma/vim-smooth-scroll'
+179a4231cce543179cbb0150d138b2b6|file:///home/appledog/.config/nvim/init.vim|165|1|V|vim
+	Plug 'rhysd/clever-f.vim'
+4d05fb1f4574c73e9db90f99dd8bbda5|file:///home/appledog/.config/nvim/init.vim|165|1|V|vim
+	Plug 'vim-scripts/indentpython.vim'
+595c7656e11680ac0d481c310e147b12|file:///home/appledog/Downloads/nvim/init.vim|488|1|V|vim
+	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install_sync() }, 'for' :['markdown', 'vim-plug'] }
+d06c5e32224b28cbe6839581af7aa4ed|file:///home/appledog/Downloads/nvim/init.vim|724|1|V|vim
+	" ===
+	" === MarkdownPreview
+	" ===
+	let g:mkdp_auto_start = 0
+	let g:mkdp_auto_close = 1
+	let g:mkdp_refresh_slow = 0
+	let g:mkdp_command_for_global = 0
+	let g:mkdp_open_to_the_world = 0
+	let g:mkdp_open_ip = ''
+	let g:mkdp_echo_preview_url = 0
+	let g:mkdp_browserfunc = ''
+	let g:mkdp_preview_options = {
+				\ 'mkit': {},
+				\ 'katex': {},
+				\ 'uml': {},
+				\ 'maid': {},
+				\ 'disable_sync_scroll': 0,
+				\ 'sync_scroll_type': 'middle',
+				\ 'hide_yaml_meta': 1
+				\ }
+	let g:mkdp_markdown_css = ''
+	let g:mkdp_highlight_css = ''
+	let g:mkdp_port = ''
+	let g:mkdp_page_title = '「${name}」'
+e1692863588805ea67089c9cfb088fe2|file:///home/appledog/.vimrc.custom.config|10|1|v|vim
+	
+	" 开启相对行号
+	" set relativenumber  
+	
+	" 开启鼠标
+	" set mouse=a
+	
+	" 设置光标所在列高亮
+	" set cursorcolumn
+	
+	" indentLine 开启代码对齐线
+	" let g:indentLine_enabled = 1
+	
+	" markdown
+	" let system = system('uname -s')
+	" if system == "Darwin\n"
+	"     let g:mkdp_path_to_chrome = "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome"
+	" else
+	"     let g:mkdp_path_to_chrome = '/usr/bin/google-chrome-stable %U'
+	" endif
+	"
+db84516475dc78c271cc7399162b2e6c|file:///home/appledog/.vimrc.custom.config|10|1|^v|vim
+	 "
+	" 
+	" 
+	" 
+c600d6d8dba72e987c22d36c83f5b8cd|file:///home/appledog/.vimrc.custom.config|12|1|V|vim
+	nmap <silent> <F8> <Plug>StopMarkdownPreview
+8e9f9a03bff2c60d6fc86da11d274808|file:///home/appledog/.vimrc.custom.config|12|1|V|vim
+	imap <silent> <F8> <Plug>StopMarkdownPreview
+1ca36e52e51d2e44ece99426c235ad06|file:///home/appledog/.vimrc.custom.config|10|1|V|vim
+	nmap <silent> <F7> <Plug>MarkdownPreviewToggle
+	imap <silent> <F7> <Plug>MarkdownPreviewToggle
+589565e7eb46646d1c01b99bc823cd9e|file:///home/appledog/.vimrc.custom.config|10|1|V|vim
+	
+	" Doxygen
+	" let g:DoxygenToolkit_authorName="chxuan, 787280310@qq.com"
+	" let s:licenseTag = "Copyright(C)\<enter>"
+	" let s:licenseTag = s:licenseTag . "For free\<enter>"
+	" let s:licenseTag = s:licenseTag . "All right reserved\<enter>"
+	" let g:DoxygenToolkit_licenseTag = s:licenseTag
+	" let g:DoxygenToolkit_briefTag_funcName="yes"
+	" let g:doxygen_enhanced_color=1
+	" let g:DoxygenToolkit_commentType="Qt"
+1f605e3f0ae3f87f19fad1f19ba9e77a|file:///home/appledog/.fzf.zsh|1|1|V|zsh
+	#!/bin/zsh
+6ff8fb857394f5895520268fdb1fc220|file:///home/appledog/.zshrc|115|1|V|zsh
+	if [ -f ~/.config/.fzf.zsh ]; then
+399e7ef09aed8896fdfa02aa7c5bd428|file:///home/appledog/.zshrc|115|5|V|zsh
+	    source ~/.config/.fzf.zsh
+2245023265ae4cf87d02c8b6ba991139|file:///home/appledog/.config/.zshrc|11|19|v|zsh
+	config
+2275994fad549ed37c6e2acea3a2e50b|file:///home/appledog/.config/nvim/init.vim|306|5|V|vim
+	            \ 'coc-actions',
+c35f7c194ccbe578a3d827354beee6d7|file:///home/appledog/.config/.zshrc|116|1|V|zsh
+	export MYVIMRC=$HOME"/.config/.vim/.vimrc"
+ccf9ad016d261818dbbe7eb20b1afbe2|file:///home/appledog/.vim/.vimrc|389|1|V|vim
+	if filereadable(expand($HOME . '/.vim/.vimrc.custom.config'))
+	    source $HOME/.vim/.vimrc.custom.config
+	endif
+576773dcf28a4557a0fc86c107957940|file:///home/appledog/.config/nvim/init.vim|346|1|V|vim
+	"endif
+0ba7ddf04c6f080777971585f9cd56e7|file:///home/appledog/.config/nvim/init.vim|345|1|V|vim
+	"    source $HOME/.config/nvim/.vimrc.custom.config
+f0f5853b4259c0483b98dac9f6d37155|file:///home/appledog/.config/nvim/init.vim|344|1|V|vim
+	"if filereadable(expand($HOME . '/.config/nvim/.vimrc.custom.config'))
+a9895da0c2494bec0db06093ee498718|file:///home/appledog/.zshrc|115|1|v|zsh
+	#vim setting path
+	export MYNVIM=$HOME"/.config/nvim"
+	
+	#go path
+	export GOPATH=~/Go
+	export GOBIN=$GOPATH/bin
+	#some custom alias
+	alias ra='ranger'
+	alias vman='func(){vim -c "Man $1" -c "silent only"};func'
+	alias c="clear"
+	alias ll="ls -al"
+	alias cn="cd $MYNVIM"
+	#alias vi="nvim"
+	
+	#some key map
+	alias ,e="vi ~/.config/nvim/init.vim"
+	alias ,vc="vi ~/.config/nvim/.vimrc.custom.config"
+	alias ,vp="vi ~/.config/nvim/.vimrc.custom.plugins"
+	alias ,z="vi $OHMYZSH"
+	alias ,s="source $OHMYZSH"
+	alias sudo="sudo "
+	alias vi="nvim"
+	#alias vim="nvim"
+	alias x="xmodmap ~/.Xmodmap"
+	alias xl="sudo loadkeys /root/keys.conf"
+	alias ,n="neofetch"
+	alias lg="lazygit"
+	#alias vi='func(){
+	#    if [ $# -eq 1 ]
+	#    then
+	#        if [ -e $1 ]
+	#        then 
+	#            nvim $1
+	#        else
+	#            nvim $1 -c "normal G"
+	#        fi
+	#    else
+	#        nvim $*
+	#    fi
+	#};func'
+	
+	[ -f ~/.config/.fzf.zsh ] && source ~/.config/.fzf.zsh
+6c59fec8cc63cab1283b3afb1acb6f16|file:///home/appledog/.bashrc|61|1|V|sh
+	[ -f ~/.config/.fzf.bash ] && source ~/.config/.fzf.bash
+0d2e43787b0f5f3fcb6f87516ab27d89|file:///home/appledog/.bashrc|60|1|V|sh
+	[ -f ~/.config/.fzf.zsh ] && source ~/.config/.fzf.zsh
+e8b091452abed9d2caac1925088e1db5|file:///home/appledog/.bashrc|37|1|V|sh
+	alias ,z="vi $OHMYZSH"
+7b582a02e8096c7c5a73404bb10b23df|file:///home/appledog/.config/.vim/.vimrc|11|17|v|vim
+	'~/.config/.vim/plugged'
+067b29c9f768bf26383f88a3117e0b88|file:///home/appledog/.vim/.vimrc|131|1|v|vim
+	Plug 'chxuan/cpp-mode'
+	Plug 'chxuan/vim-edit'
+	Plug 'chxuan/change-colorscheme'
+	Plug 'chxuan/prepare-code'
+	Plug 'chxuan/vim-buffer'
+	Plug 'chxuan/vimplus-startify'
+	Plug 'chxuan/tagbar'
+	Plug 'Valloric/YouCompleteMe'
+	Plug 'Yggdroot/LeaderF'
+	Plug 'mileszs/ack.vim'
+	Plug 'easymotion/vim-easymotion'
+	Plug 'haya14busa/incsearch.vim'
+	Plug 'jiangmiao/auto-pairs'
+	Plug 'scrooloose/nerdtree'
+	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+	Plug 'Xuyuanp/nerdtree-git-plugin'
+	Plug 'godlygeek/tabular'
+	Plug 'tpope/vim-fugitive'
+	Plug 'tpope/vim-surround'
+	Plug 'tpope/vim-commentary'
+	Plug 'tpope/vim-repeat'
+	Plug 'tpope/vim-endwise'
+	Plug 'octol/vim-cpp-enhanced-highlight'
+	Plug 'vim-airline/vim-airline'
+	Plug 'vim-airline/vim-airline-themes'
+	Plug 'ryanoasis/vim-devicons'
+	Plug 'junegunn/vim-slash'
+	Plug 'junegunn/gv.vim'
+	Plug 'kana/vim-textobj-user'
+	Plug 'kana/vim-textobj-indent'
+	Plug 'kana/vim-textobj-syntax'
+	Plug 'kana/vim-textobj-function'
+	Plug 'sgur/vim-textobj-parameter'
+	Plug 'Shougo/echodoc.vim'
+	Plug 'terryma/vim-smooth-scroll'
+	Plug 'rhysd/clever-f.vim'
+	Plug 'vim-scripts/indentpython.vim'
+	
+	" 加载自定义插件
+	if filereadable(expand($HOME . '/.vim/.vimrc.custom.plugins'))
+	    source $HOME/.vim/.vimrc.custom.plugins
+	endif
+	
+	
+8db9389641a5ff46e098a5521c966565|file:///home/appledog/.config/.vim/.vimrc|9|1|V|vim
+	Plug 'preservim/nerdtree'
+d42188a32924f1647898b1f56c030c3f|file:///home/appledog/.config/.vimplus/install.sh|194|1|V|sh
+	    rm -rf ~/vim82
+c4fe482d6760e5e57bfac60c7e66947c|file:///home/appledog/.config/.vimplus/install.sh|238|1|V|sh
+	    sudo make install
+23ddbb29f554b17aaad9e26a3bd31eb1|file:///home/appledog/.config/.vimplus/install.sh|225|1|V|sh
+	    cd ~/vim82
+73e0ee1ac9c1c82182a7c33b54ef785b|file:///home/appledog/.config/.vimplus/install.sh|385|5|V|sh
+	    mkdir ~/.config/.vim
+25afb68ff1e156a1e6daa9af8adb0d0f|file:///home/appledog/.config/.vimplus/install.sh|383|4|V|sh
+	        cd ~/.config
+cb33ee5fe48048174dd6ce7efa20d3bf|file:///home/appledog/.config/.vimplus/install.sh|383|9|V|sh
+	        rm -rf .vim
+dce05c441fd253aeb86c42def785f953|file:///home/appledog/.vim/.vimrc|129|1|v|vim
+	call plug#begin('~/.vim/plugged')
+	
+	Plug 'chxuan/cpp-mode'
+	Plug 'chxuan/vim-edit'
+	Plug 'chxuan/change-colorscheme'
+	Plug 'chxuan/prepare-code'
+	Plug 'chxuan/vim-buffer'
+	Plug 'chxuan/vimplus-startify'
+	Plug 'chxuan/tagbar'
+	Plug 'Valloric/YouCompleteMe'
+	Plug 'Yggdroot/LeaderF'
+	Plug 'mileszs/ack.vim'
+	Plug 'easymotion/vim-easymotion'
+	Plug 'haya14busa/incsearch.vim'
+	Plug 'jiangmiao/auto-pairs'
+	Plug 'scrooloose/nerdtree'
+	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+	Plug 'Xuyuanp/nerdtree-git-plugin'
+	Plug 'godlygeek/tabular'
+	Plug 'tpope/vim-fugitive'
+	Plug 'tpope/vim-surround'
+	Plug 'tpope/vim-commentary'
+	Plug 'tpope/vim-repeat'
+	Plug 'tpope/vim-endwise'
+	Plug 'octol/vim-cpp-enhanced-highlight'
+	Plug 'vim-airline/vim-airline'
+	Plug 'vim-airline/vim-airline-themes'
+	Plug 'ryanoasis/vim-devicons'
+	Plug 'junegunn/vim-slash'
+	Plug 'junegunn/gv.vim'
+	Plug 'kana/vim-textobj-user'
+	Plug 'kana/vim-textobj-indent'
+	Plug 'kana/vim-textobj-syntax'
+	Plug 'kana/vim-textobj-function'
+	Plug 'sgur/vim-textobj-parameter'
+	Plug 'Shougo/echodoc.vim'
+	Plug 'terryma/vim-smooth-scroll'
+	Plug 'rhysd/clever-f.vim'
+	Plug 'vim-scripts/indentpython.vim'
+	
+	
+cfb8767a6dbc95b1bbec63b31f4135cd|file:///home/appledog/.config/.vim/vimrc|129|1|v|vim
+	call plug#begin('~/.config/.vim/plugged')
+	
+	Plug 'chxuan/cpp-mode'
+	Plug 'chxuan/vim-edit'
+	Plug 'chxuan/change-colorscheme'
+	Plug 'chxuan/prepare-code'
+	Plug 'chxuan/vim-buffer'
+	Plug 'chxuan/vimplus-startify'
+	Plug 'chxuan/tagbar'
+	Plug 'Valloric/YouCompleteMe'
+	Plug 'Yggdroot/LeaderF'
+	Plug 'mileszs/ack.vim'
+	Plug 'easymotion/vim-easymotion'
+	Plug 'haya14busa/incsearch.vim'
+	Plug 'jiangmiao/auto-pairs'
+	Plug 'scrooloose/nerdtree'
+	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+	Plug 'Xuyuanp/nerdtree-git-plugin'
+	Plug 'godlygeek/tabular'
+	Plug 'tpope/vim-fugitive'
+	Plug 'tpope/vim-surround'
+	Plug 'tpope/vim-commentary'
+	Plug 'tpope/vim-repeat'
+	Plug 'tpope/vim-endwise'
+	Plug 'octol/vim-cpp-enhanced-highlight'
+	Plug 'vim-airline/vim-airline'
+	Plug 'vim-airline/vim-airline-themes'
+	Plug 'ryanoasis/vim-devicons'
+	Plug 'junegunn/vim-slash'
+	Plug 'junegunn/gv.vim'
+	Plug 'kana/vim-textobj-user'
+	Plug 'kana/vim-textobj-indent'
+	Plug 'kana/vim-textobj-syntax'
+	Plug 'kana/vim-textobj-function'
+	Plug 'sgur/vim-textobj-parameter'
+	Plug 'Shougo/echodoc.vim'
+	Plug 'terryma/vim-smooth-scroll'
+	Plug 'rhysd/clever-f.vim'
+	Plug 'vim-scripts/indentpython.vim'
+	
+	" 加载自定义插件
+	if filereadable(expand($HOME . '/.config/.vim/.vimrc.custom.plugins'))
+	    source $HOME/.config/.vim/.vimrc.custom.plugins
+	endif
+	
+	call plug#end()  
+	
+	
+6eab20d1624ec7ab5b1d1d7f0591dfe5|file:///home/appledog/.config/.vimplus/.ycm_extra_conf.py|146|1|V|python
+	def FlagsForFile( filename, **kwargs ):
+25735eb2ff9d9373d79522ba6f108907|file:///home/appledog/.config/.vimplus/.vimrc|133|1|V|vim
+	Plug 'Valloric/YouCompleteMe'
+0f212cde80cfa24c51f769940d0fa5e4|file:///home/appledog/.zshrc|116|1|V|zsh
+	export MYNVIM=$HOME"/.config/nvim"
+d5add64ff0f9316e860321281580597b|file:///home/appledog/.config/.vimplus/install.sh|364|5|V|sh
+	    ln -s ${PWD}/.vimrc ~
+dcd44cd638d36201e879cc0eab19066e|file:///home/appledog/.config/.vimplus/install.sh|371|5|V|sh
+	    rm -rf ~/.ycm_extra_conf.py
+bc7eba6ada19c56f81c6c42c519b96b2|file:///home/appledog/.config/.vimplus/install.sh|371|5|V|sh
+	    ln -s ${PWD}/.ycm_extra_conf.py ~
+0fb1560b458280b3a9aa4164169ce6b4|file:///home/appledog/.config/.vimplus/install.sh|369|1|V|sh
+	    #cp ${PWD}/.vimrc.custom.config ~
+da864c740bdfcbabc81f9c795ba22768|file:///home/appledog/.config/.vim/plugged/UltiSnips/cmake.snippets|10|1|V|snippets
+	endsnippet
+358b0eabed95d438f32aaf248b71e348|file:///home/appledog/.config/nvim/.vimrc.custom.plugins|25|2|V|vim
+	 Plug 'mbbill/undotree'
+fca999f3993d2e916bee5bf0a5de0177|file:///home/appledog/.config/.vimplus/install.sh|383|5|V|sh
+	    echo "export MYVIM=~/.config/.vim" >> .zshrc
+590ca9a233c471ef341c4d8eb2d5a959|file:///home/appledog/.config/.vimplus/install.sh|407|4|V|sh
+	    echo "Copy plugins files"
+	    cp $(PWD)/plugin_modify/snippet* ~/.config/.vim/plugged/prepare-code/snippet/
+	    cp $(PWD)/plugin_modify/header.vim ~/.config/.vim/plugged/vim-header/autoload
+9b85fe51acc07ae7aa3f830fde622808|file:///home/appledog/.config/.vimplus/.vimrc|318|1|V|vim
+	            \ 'coc-stylelint',
+e61a28da6d1fc991e3179ed9bbe74661|file:///home/appledog/.config/.vimplus/install.sh|594|5|V|sh
+	    install_fzf
+14cd18994b6b22f127232302ad35584f|file:///home/appledog/.config/nvim/.vimrc.custom.plugins|24|2|V|vim
+	 Plug 'makerj/vim-pdf'
+9b30efa897af65d96b76ebc808336ca0|file:///home/appledog/.config/.vimplus/install.sh|236|9|V|sh
+	        --with-python-config-dir=/lib64/python2.7/config \
+c2a8cf4479a967eb9eb8a1840c873a25|file:///home/appledog/.config/.vimplus/install.sh|579|5|V|sh
+	    install_prepare_software_on_centos
+6bb2f4a96fda99f33a7b3d3aa8695bbd|file:///home/appledog/.config/.vimplus/install.sh|453|1|^v|sh
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+a1927a1fc265820a9301d1ce54a6ec82|file:///home/appledog/.config/.vimplus/vimrc_centos|168|1|V|vim
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+3b8073fcd45a3e2a718291df24b61a08|file:///home/appledog/.config/.vimplus/install.sh|367|4|v|sh
+	 rm -rf ~/.config/.vim/.vimrc
+	
+	    rm -rf ~/.config/.vim/.vimrc.custom.plugins
+	    #cp ${PWD}/.vimrc.custom.plugins ~
+	
+	    rm -rf ~/.config/.vim/.vimrc.custom.config
+	    #cp ${PWD}/.vimrc.custom.config ~
+	
+	    rm -rf ~/.config/.vim
+	    mkdir -p ~/.config/.vim
+	
+	    zsh_location = $HOME"/.zshrc"
+	    zsh_is_exist = $(is_exist_file $zsh_location)
+	    if [ $zsh_is_exist == 1 ]; then
+	        echo "export MYVIM=~/.config/.vim" >> ~/.zshrc 
+	        source ~/.zshrc
+	    fi
+	    echo "export MYVIM=~/.config/.vim" >> ~/.bashrc 
+	    source ~/.bashrc
+	
+	    cp ${PWD}/.vimrc.custom.plugins ~/.config/.vim/
+	    cp ${PWD}/.vimrc.custom.config ~/.config/.vim/
+	    cp ${PWD}/.vimrc ~/.config/.vim/
+	    ln -s ~/.config/.vim/.vimrc ~
+	
+	    rm -rf ~/.config/.vim/colors
+	    cp -r ${PWD}/colors ~/.config/.vim
+	
+	    rm -rf ~/.config/.vim/ftplugin
+	    cp -r ${PWD}/ftplugin ~/.config/.vim
+	
+	    rm -rf ~/.config/.vim/autoload
+	    cp -r ${PWD}/autoload ~/.config/.vim
+	}
+	
+929c12fb8a9255cf737412443ed81bf1|file:///home/appledog/.config/.vimplus/install.sh|555|1|V|sh
+	    install_prepare_software_on_mac
+0c4f9f90657a4ab52d32b6f06f40c1c4|file:///home/appledog/.config/.vimplus/install.sh|621|5|V|sh
+	    begin_install_vimplus
+79163d142d37424ca6a749ab7639eed7|file:///home/appledog/.config/.zshrc|160|75|v|zsh
+	"[[ $(file --mime {}) =~ binary ]] && echo {} is a binary file || (ccat --color=always {} || highlight -O ansi -l {} || cat {}) 2> /dev/null | head -500:"' 
+7b5c67d80e7210371b305d5f8213c8f4|file:///home/appledog/.config/.zshrc|159|1|V|zsh
+	export FZF_COMPLETION_TRIGGER='\'
+	export FZF_DEFAULT_OPTS='--height 80% --layout=reverse --border --preview "[[ $(file --mime {}) =~ binary ]] && echo {} is a binary file || (ccat --color=always {} || highlight -O ansi -l {} || cat {}) 2> /dev/null | head -500"' 
+	export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
+	export FZF_PREVIEW_COMMAND='[[ $(file --mime {}) =~ binary ]] && echo {} is a binary file || (ccat --color=always {} || highlight -O ansi -l {} || cat {}) 2> /dev/null | head -500' 
+08d9093ab7eac4eaa773ffa852b6d437|file:///home/appledog/.zshrc|123|1|v|zsh
+	alias ra='ranger'
+	alias vman='func(){vim -c "Man $1" -c "silent only"};func'
+	alias c="clear"
+	alias ll="ls -al"
+	alias cn="cd $MYNVIM"
+	#alias vi="nvim"
+	
+	#some key map
+	alias ,e="vi ~/.config/nvim/init.vim"
+	alias ,vc="vi ~/.config/nvim/.vimrc.custom.config"
+	alias ,vp="vi ~/.config/nvim/.vimrc.custom.plugins"
+	alias ,z="vi $OHMYZSH"
+	alias ,s="source $OHMYZSH"
+	alias sudo="sudo "
+	alias vi="nvim"
+	#alias vim="nvim"
+	alias x="xmodmap ~/.Xmodmap"
+	alias xl="sudo loadkeys /root/keys.conf"
+	alias ,n="neofetch"
+	alias lg="lazygit"
+	#alias vi='func(){
+	#    if [ $# -eq 1 ]
+	#    then
+	#        if [ -e $1 ]
+	#        then 
+	#            nvim $1
+	#        else
+	#            nvim $1 -c "normal G"
+	#        fi
+	#    else
+	#        nvim $*
+	#    fi
+	#};func'
+	
+	
+2015c712d52fedfc7afca31fbdf2da68|file:///home/appledog/.zshrc|122|1|v|zsh
+	#some custom alias
+8a79ff10b37b6f364d5d752ad52328d2|file:///home/appledog/.config/zsh/alias.zsh|12|1|V|zsh
+	#alias vi="nvim"
+15426c245968cb6145f1f3cabc87edbc|file:///home/appledog/.config/nvim/.vimrc.custom.config|125|1|V|vim
+	"let g:fzf_preview_window = 'right:60%'
+d5a5e0fa7f99aecf536dca7011064eaf|file:///home/appledog/.config/nvim/.vimrc.custom.config|120|1|V|vim
+	"FZF
+	noremap <leader>f :Files<CR>
+	noremap <leader>r :Rg<CR>
+	noremap <leader>h :History<CR>
+3d4c72da7186bd45f6d14da7a721873c|file:///home/appledog/.config/nvim/.vimrc.custom.config|123|1|V|vim
+	noremap <leader>h :History<CR>
+56c8ef8dabeae6174d95312b32d65980|file:///home/appledog/.config/.gitignore|3|1|V|
+	.fzf
+c7c41ff1aa8e2555dec3c2cd1d8cb278|file:///home/appledog/.config/.gitignore|2|1|V|
+	.vimplus
+2a95d80d885e88b0f39207bb61acb282|file:///home/appledog/.config/.gitignore|1|1|V|
+	.vim
+1d5a002c5d9e40518f59e9ed917ba027|file:///home/appledog/.config/.gitignore|1|1|^v|
+	                                                 
+	total 264                                        
+	drwxr-xr-x 51 appledog appledog 4096 Jul 18 21:08
+	drwx------ 34 appledog appledog 4096 Jul 18 21:10
+	drwxr-xr-x  2 appledog appledog 4096 Jul 18 08:29
+	drwxr-xr-x  2 appledog appledog 4096 May  6 12:46
+	drwx------  3 appledog appledog 4096 May  4 15:26
+	drwxr-xr-x  4 appledog appledog 4096 Jul 16 23:02
+	drwx------ 13 appledog appledog 4096 Jul 16 16:35
+	drwx------  2 appledog appledog 4096 Jul 16 19:40
+	drwx------  2 appledog appledog 4096 Jul 18 20:07
+	drwxr-xr-x 17 appledog appledog 4096 Jul 18 12:05
+	drwxr-xr-x  2 appledog appledog 4096 May  2 23:24
+	drwx------  3 appledog appledog 4096 Apr 30 20:37
+	drwx------  9 appledog appledog 4096 May  6 14:00
+	drwx------  4 appledog appledog 4096 May  5 00:23
+	drwx------  8 appledog appledog 4096 Jul 18 08:29
+	drwxr-xr-x  3 appledog appledog 4096 May 11 10:52
+	drwxr-xr-x 11 appledog appledog 4096 Jul 16 17:18
+	-rw-r--r--  1 appledog appledog  374 Jul 16 17:42
+	-rw-r--r--  1 appledog appledog 1155 Jul 18 20:15
+	drwxr-xr-x  3 appledog appledog 4096 May  4 19:10
+	drwxr-xr-x  7 appledog appledog 4096 Jul 18 21:04
+	-rw-r--r--  1 appledog appledog    0 Jul 18 21:08
+	drwxr-xr-x  2 appledog appledog 4096 May  5 00:11
+	drwx------ 24 appledog appledog 4096 Jul 18 21:10
+	drwx------  2 appledog appledog 4096 May  7 08:50
+	drwxr-xr-x  2 appledog appledog 4096 Apr 29 21:14
+	drwxr-xr-x  2 appledog appledog 4096 May 11 00:54
+	drwxr-xr-x  3 appledog appledog 4096 May 10 17:16
+	-rw-------  1 appledog appledog   26 Jul 15 09:18
+	-rw-------  1 appledog appledog   35 Jul 14 21:42
+	-rw-r--r--  1 appledog appledog 8850 Jul 18 08:29
+	drwxr-xr-x  2 appledog appledog 4096 May  4 15:28
+	drwxr-xr-x  2 appledog appledog 4096 May  4 18:33
+	-rw-------  1 appledog appledog  316 Jul 18 19:29
+	drwxr-xr-x  2 appledog appledog 4096 Apr 30 18:16
+	-rw-r--r--  1 appledog appledog 5909 Jul 14 21:12
+	drwxr-xr-x  3 appledog appledog 4096 Apr 30 23:46
+	drwx------  2 appledog appledog 4096 Apr 30 23:17
+	drwxr-xr-x  2 appledog appledog 4096 Apr 30 13:43
+	drwxr-xr-x  2 appledog appledog 4096 Jul 16 14:23
+	drwxr-xr-x  7 appledog appledog 4096 Jul 18 20:58
+	drwxr-xr-x  2 appledog appledog 4096 May  2 12:21
+	drwx------  2 appledog appledog 4096 Apr 29 21:48
+	-rw-r--r--  1 appledog appledog   99 May 11 10:54
+	drwxr-xr-x  3 appledog appledog 4096 Jul 18 20:51
+	drwxr-xr-x  2 appledog appledog 4096 Jun 23 21:45
+	drwxr-xr-x  2 appledog appledog 4096 Apr 30 22:52
+	drwx------  3 appledog appledog 4096 May  6 12:46
+	drwxr-xr-x 16 appledog appledog 4096 May  6 12:56
+	drwxr-xr-x  7 appledog appledog 4096 May  4 15:14
+	drwxr-xr-x  2 appledog appledog 4096 Apr 30 22:59
+	drwxr-xr-x  3 appledog appledog 4096 May  1 07:43
+	drwxr-xr-x  4 appledog appledog 4096 May  7 08:51
+	-rw-r--r--  1 appledog appledog 3482 May 10 15:45
+	-rw-r--r--  1 appledog appledog  197 Jul 15 16:09
+	-rw-------  1 appledog appledog  635 Apr 30 23:01
+	drwxr-xr-x  9 appledog appledog 4096 May 10 10:34
+	drwxr-xr-x  7 appledog appledog 4096 Jul 18 20:56
+	drwxr-xr-x 10 appledog appledog 4096 Jul 18 18:16
+	-rw-r--r--  1 appledog appledog   90 Jul 17 01:42
+	drwx------  2 appledog appledog 4096 May 10 10:23
+	drwxr-xr-x  2 appledog appledog 4096 Apr 30 17:45
+	drwx------  2 appledog appledog 4096 May 11 10:48
+	drwxr-xr-x  4 appledog appledog 4096 Jul 18 21:04
+05b62249b487870338d40f44d237c263|file:///home/appledog/.config/.gitignore|1|1|^v|
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+5a4255d800af5a106af4aea96817531c|file:///home/appledog/.config/.gitignore|1|1|V|
+	alacritty
+3db26e6f5595bf8839b33f8ea74b6a62|file:///home/appledog/.config/.gitignore|1|1|V|
+	autostart
+6ce75a0db5eb5d6b9d7e053c86391fea|file:///home/appledog/.config/.gitignore|13|1|V|
+	.fzf.bash
+6eb04189d8ca27895e861a90bea737d8|file:///home/appledog/.config/.gitignore|13|1|V|
+	.fzf.zsh
+e863270127ca6116fd30e708cdc582fc|file:///home/appledog/.config/.gitignore|29|1|V|
+	neofetch
+058f30d8a6c4b3a18225112fe4bc9df0|file:///home/appledog/.config/.gitignore|31|1|V|
+	polybar
+ad92694923612da0600d7be498cc2e08|file:///home/appledog/.config/.gitignore|33|1|V|
+	ranger
+8c9a8d36c39b26c8e8239a491e39813b|file:///home/appledog/.config/.gitignore|34|1|V|
+	rofi
