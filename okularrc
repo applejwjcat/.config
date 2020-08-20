@@ -10,4 +10,6 @@ Window-Maximized 864x1536=true
 
 [Recent Files]
 File1[$e]=$HOME/Documents/书藉/《鸟哥的Linux私房菜-基础篇》第四版.pdf
+File2[$e]=$HOME/Documents/书藉/Go程序设计语言.pdf
 Name1[$e]=《鸟哥的Linux私房菜-基础篇》第四版.pdf
+Name2[$e]=Go程序设计语言.pdf

@@ -1,0 +1,5 @@
+#####dde-lock#####
+[2020-08-14 19:11:21][crash signal number:11]
+##########
+[2020-08-16 15:04:19][crash signal number:11]
+0 /usr/bin/dde-lock(+0x7141a) [0x555a7df1841a]
