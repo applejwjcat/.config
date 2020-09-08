@@ -3,3 +3,18 @@
 ##########
 [2020-08-16 15:04:19][crash signal number:11]
 0 /usr/bin/dde-lock(+0x7141a) [0x555a7df1841a]
+#####dde-lock#####
+[2020-08-24 07:55:03][crash signal number:11]
+0 /usr/bin/dde-lock(+0x7142a) [0x561ce0f7342a]
+##########
+[2020-09-03 11:34:08][crash signal number:11]
+0 /usr/bin/dde-lock(+0x7128a) [0x55eba870028a]
+#####dde-lock#####
+[2020-09-03 19:20:35][crash signal number:11]
+0 /usr/bin/dde-lock(+0x7128a) [0x5593bc61228a]
+##########
+[2020-09-03 21:58:24][crash signal number:11]
+0 /usr/bin/dde-lock(+0x7128a) [0x559c6791f28a]
+#####dde-lock#####
+[2020-09-05 12:14:31][crash signal number:11]
+0 /usr/bin/dde-lock(+0x7128a) [0x55b0a923128a]
